@@ -1,0 +1,22 @@
+{
+  "store.home": { 
+    "blocks": [
+      "image#home__image"
+    ]
+  },
+  "image#home__image": { 
+    "title": "Imagen de Home",                                  // Título de bloque.
+    "props": {        
+      "src": "assets/img/b2b-commerce-cover-desktop-1.jpg",     // Source de la imágen.
+      "maxWidth": 600,                                          // Ancho máximo de la imágen.
+      "title": "B2B Commerce",                                  // Título que saldrá al hacer hover en la imágen.
+      "blockClass": "home__image",                              // Clase personalizada.
+
+      "link": {                                                 // Objeto que determina las características de la imágen.
+        "url": "https://www.google.com/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  }
+}
